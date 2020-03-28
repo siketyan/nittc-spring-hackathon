@@ -1,0 +1,13 @@
+{
+    "title": "豊田高専 春のアイデア・ハッカソン",
+    "description": "在校生は誰でも参加可能 新入生大歓迎",
+    "locale": "ja",
+    "public_url": "https://nittc-hackathon.now.sh",
+    "registrar_url": "https://docs.google.com/forms/d/e/1FAIpQLSc9BOd_rq7TWz4xwk0BQA2OuGF_1btVkehgIf8Npr3RyJij5g/viewform",
+    "twitter_url": "https://twitter.com/NITTC_OnlineHac",
+    "facebook_url": "https://www.facebook.com/%E8%B1%8A%E7%94%B0%E9%AB%98%E5%B0%82-%E6%98%A5%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3-100243864969385/",
+    "email_url": "mailto:idea.hack.toyota.kosen@gmail.com",
+    "twitter_share_url": "https://twitter.com/intent/tweet?text=%E8%B1%8A%E7%94%B0%E9%AB%98%E5%B0%82%20%E6%98%A5%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3&url=https%3A%2F%2Fnittc-hackathon.now.sh%2F&hashtags=NITTC_SIH&related=NITTC_OnlineHac",
+    "facebook_share_url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnittc-hackathon.now.sh%2F",
+    "line_share_url": "https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fnittc-hackathon.now.sh%2F"
+}

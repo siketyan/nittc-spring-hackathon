@@ -1,0 +1,27 @@
+{
+  "name": "nittc-spring-hackathon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naoki Ikeguchi <root@siketyan.dev>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "string-replace-loader": "^2.2.0",
+    "string-replace-webpack-plugin": "^0.1.3",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

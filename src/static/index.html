@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:url" content="{{ public_url }}/" />
+        <meta property="og:image" content="{{ public_url }}/ogp.png" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <link href="https://fonts.googleapis.com/css?family=Kosugi|Sawarabi+Mincho&display=swap&subset=japanese" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            html, body {
+                width: 100%;
+                min-height: 100%;
+            }
+
+            .lds-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .lds-dual-ring {
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                margin: 16px;
+            }
+
+            .lds-dual-ring:after {
+                content: '';
+                display: block;
+                width: 64px;
+                height: 64px;
+                margin: 8px;
+                border: 6px solid;
+                border-radius: 50%;
+                border-color: #333 transparent #333 transparent;
+                animation: lds-dual-ring 1.2s linear infinite;
+            }
+
+            @keyframes lds-dual-ring {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+        <script src="https://kit.fontawesome.com/a53ffda201.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="lds-container">
+            <div class="lds-dual-ring"></div>
+            <p>Loading…</p>
+        </div>
+    </body>
+</html>

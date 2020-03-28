@@ -1,0 +1,12 @@
+@import 'components';
+@import 'typography';
+@import 'layout';
+@import 'theme';
+@import 'utilities';
+@import 'variables';
+
+@media(max-width: 512px) {
+    main > .container > section > *:not(h2) {
+        margin: 0 1rem;
+    }
+}

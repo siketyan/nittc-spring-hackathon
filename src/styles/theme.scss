@@ -1,0 +1,63 @@
+@import 'variables';
+
+body {
+    color: $color-secondary;
+}
+
+header {
+    background-color: $color-primary;
+
+    .icon {
+        border: 5px solid $color-secondary;
+    }
+}
+
+footer {
+    background-color: $color-secondary;
+    color: $color-light;
+
+    a {
+        color: inherit;
+    }
+}
+
+.alert {
+    background-color: $color-light;
+    color: $color-dark;
+}
+
+.button {
+    background-color: $color-translucent;
+    border: 1px solid $color-secondary;
+
+    &.twitter {
+        border-color: $color-twitter;
+        color: $color-twitter;
+
+        &:before {
+            background-color: #00acee;
+        }
+    }
+
+    &.facebook {
+        border-color: $color-facebook;
+        color: $color-facebook;
+
+        &:before {
+            background-color: $color-facebook;
+        }
+    }
+
+    &.line {
+        border-color: $color-line;
+        color: $color-line;
+
+        &:before {
+            background-color: $color-line;
+        }
+    }
+
+    &:hover {
+        color: $color-light;
+    }
+}
