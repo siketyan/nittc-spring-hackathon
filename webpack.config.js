@@ -62,7 +62,7 @@ module.exports = {
         new CopyWebpackPlugin([
             {
                 from: './src/static',
-                transform: preprocessor,
+                transform: (content, path) => path.match(/\.html$/) ? preprocessor(content) : content,
             },
         ]),
     ],
