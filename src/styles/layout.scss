@@ -16,11 +16,9 @@ header {
         margin-bottom: 2rem;
 
         .logo {
-            background: url('../images/logo.png') no-repeat center;
-            background-size: $size-logo-clipping;
+            background: url('../images/logo.svg') no-repeat center;
             width: $size-logo;
             height: $size-logo;
-            border-radius: 100%;
         }
 
         h1 {
