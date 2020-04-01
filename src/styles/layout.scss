@@ -83,6 +83,11 @@ h2 {
         display: block;
         margin: 16px;
     }
+
+    > span > * {
+        display: block;
+        text-align: center;
+    }
 }
 
 dl > div {display: flex;
